@@ -1,56 +1,96 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&family=Source+Sans+Pro&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  color:white;
+  background: rgba(0, 0, 255, 0.5);
+}
+
+.login-container {
+  /*margin-top: 5080px;
+  text-align: center;
+  margin: 500px auto;
+  height: 700px;
+  width: 600px;
+  background: #0C0E1C;
+  border-radius:20px 20px 20px 20px;*/
+  
+  /*glassmorphism*/
+  margin: 500px auto;
+  text-align: center;
+  height: 800px;
+  width: 600px;
+  background:rgba(5, 0, 0,0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.titulo-principal {
+  padding-top: 80px;
+  font-size: 60px;
+}
+
+.login-label {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
+  padding: 35px;
+  font-size: 40px;
+  margin: auto;
+}
+
+.login-input {
+  padding-top: 35px;
+  border-radius: 20px 20px 20px 20px;
+  width: 350px;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px 
+}
+
+.login-botao {
+  font-size: 25px;
+  display: block;
+  height: 50px;
+  width: 370px;
+  border-radius: 20px 20px 20px 20px;
+  margin: 68px  auto;
+  /*margin-top: 45px;*/
+  cursor: pointer;
+}
+
+ 
+.login-botao:hover{
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #34A3E0;
   
 }
 
-body {
-  background-color: lightcoral;
+
+.horizontal-line {
+  border-color: black;
+  width: 80%;
+  background-color:#000000;
 }
 
-.text {
-  font-size: 25px;
-  padding-top: 25px;
-  /*background: #CECECE;*/
-  border-radius: 10px;
 
-}
-
-.container {
-  background-color: #29D9A8;
-  width: 350px;
-  height: 500px;
-  text-align: center;
-  margin: 1em;
-  border-radius: 10px;
-  margin-top: 100px;
-  box-shadow: 8px 8px 2px black;
-}
-
-.main-content > input {
-  width: 250px;
-  margin-top: 50px;
-  border-radius: 20px;
-  background-color: #FFFFFF;
-  font-weight: bold;
-  text-align:center;
-}
-
-.btn-cal {
-  display: block;
-  margin: 10px 50px auto;
-  width: 250px;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 10px;
-}
-
-.btn-cal:hover {
-  background: #F98152;
+.second-content {
   font-size: 15px;
 }
 
-.btn-res {
-  margin-top: 25px;
+.img-google{
+  width: 100px;
+  display: flex;
+  margin-left: 150px;
 }
 
+/*.img-github {
+  width: 50px;
+  margin-left: 150px;
+  margin-bottom: 50px
+}*/

@@ -15,3 +15,5 @@ function calcular() {
   
   res.innerHTML = `Sua nota no final do ano foi ${resposta}`
 }
+
+console.log('𝘊𝘳𝘪𝘢𝘥𝘰 e 𝘥𝘦𝘴𝘦𝘯𝘷𝘰𝘭𝘷𝘪𝘥𝘰 𝘱𝘰𝘳: 𝘎𝘢𝘣𝘶')
