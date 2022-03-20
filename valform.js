@@ -11,11 +11,16 @@ const init = () => {
       fetch('https://reqres.in/api/login',{
         method:'POST',
         headers: {
-          'ContentType': 'application/json'
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          email: inputEmail.value
+          email: inputEmail.value,
+          password: inputPassword.value,
         })
+      }).then((response) => {
+        return response.json();
+      }).then((data) => {
+        console.log(data)
       })
     })
   }
